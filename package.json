@@ -1,0 +1,29 @@
+{
+  "name": "dom-wrap",
+  "description": "Make dom elements easier to work with",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/dom-wrap.git"
+  },
+  "homepage": "https://github.com/juliangruber/dom-wrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "emit-clicks": "0.0.0"
+  },
+  "keywords": [
+    "dom",
+    "wrap",
+    "events",
+    "click"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
