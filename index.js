@@ -25,6 +25,16 @@ function wrap (dom) {
     return ee;
   }
 
+  var oldDisplay;
+  ee.hide = function () {
+    oldDisplay = dom.style.display;
+    dom.style.display = 'none';
+  }
+
+  ee.show = function () {
+    dom.style.display = oldDisplay || 'block';
+  }
+
   emitClicks(dom).on('click', function (href) {
     ee.emit('click', href);
   });

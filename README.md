@@ -21,6 +21,10 @@ dom.on('click', function (href) {
   console.log('clicked: ' + href);
 });
 
+// hide & show
+dom.hide();
+dom.show();
+
 // do something with the underlying dom
 dom.dom./*...*/
 ```
@@ -44,6 +48,14 @@ Add dom as a child to `el`.
 ### wrap#remove()
 
 Remove the wrapped dom from the page.
+
+### wrap#show()
+
+Show the dom.
+
+### wrao#hide()
+
+Hide the dom.
 
 ### wrap#dom
 
