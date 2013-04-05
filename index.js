@@ -35,6 +35,14 @@ function wrap (dom) {
     dom.style.display = oldDisplay || 'block';
   }
 
+  ee.find = function (selector) {
+    return dom.querySelector(selector);
+  }
+
+  ee.findAll = function (selector) {
+    return dom.querySelectorAll(selector);
+  }
+
   emitClicks(dom).on('click', function (href) {
     ee.emit('click', href);
   });

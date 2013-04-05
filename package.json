@@ -1,7 +1,7 @@
 {
   "name": "dom-wrap",
   "description": "Make dom elements easier to work with",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/dom-wrap.git"

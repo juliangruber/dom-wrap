@@ -25,6 +25,10 @@ dom.on('click', function (href) {
 dom.hide();
 dom.show();
 
+// find children
+dom.find('#foo');
+dom.findAll('.bar');
+
 // do something with the underlying dom
 dom.dom./*...*/
 ```
@@ -53,9 +57,13 @@ Remove the wrapped dom from the page.
 
 Show the dom.
 
-### wrao#hide()
+### wrap#hide()
 
 Hide the dom.
+
+### wrap#find(selector), wrap#findAll(selector)
+
+Uses `querySelector` / `querySelectorAll`.
 
 ### wrap#dom
 
